@@ -30,7 +30,7 @@ FEISHU_DESK_HUD/
 
 | 硬件名称 | 核心芯片 | 备注 |
 | --- | --- | --- |
-| **E-Paper Board** | ESP32-S3 | 需注意 GPIO 17 电源维持引脚 |
+| **ESP32-S3-ePaper-1.54** | ESP32-S3 | 需注意 GPIO 17 电源维持引脚 |
 | **Sparkbot** | ESP32-S3 | 带LCD屏与六轴传感器 |
 | **锂电池** | 3.7V LiPo | 需确认正负极线序 |
 
