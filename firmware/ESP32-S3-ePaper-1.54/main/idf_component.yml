@@ -1,0 +1,14 @@
+## IDF Component Manager Manifest File
+dependencies:
+  ## Required IDF version
+  idf:
+    version: '>=4.1.0'
+    
+  # 图形库
+  lvgl/lvgl: ^8.4.0
+
+  # MQTT 客户端
+  espressif/mqtt: "^1.0"
+
+  # JSON 解析库
+  espressif/cjson: "^1.0"

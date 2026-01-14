@@ -1,0 +1,27 @@
+{
+  "name": "feishu-emqx-bridge",
+  "version": "1.0.0",
+  "description": "飞书消息转发到EMQX物联网平台",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "feishu",
+    "emqx",
+    "mqtt",
+    "iot"
+  ],
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.56.1",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "mqtt": "^5.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

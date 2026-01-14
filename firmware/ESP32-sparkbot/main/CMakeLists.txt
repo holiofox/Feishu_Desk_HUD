@@ -1,0 +1,31 @@
+idf_component_register(
+    SRCS
+        "app_main.c"
+        "ui.c"
+        "ui_events.c"
+        "ui_helpers.c"
+        "fonts/ui_font_bigNUM.c"
+        "fonts/ui_font_YBPfont.c"
+        "fonts/ui_font_FontCN16.c"
+        "images/ui_img_bg01_png.c"
+        "images/ui_img_bg02_png.c"
+        "screens/ui_Screen1.c"
+        "screens/ui_Screen2.c"
+
+    INCLUDE_DIRS 
+        "." 
+        "fonts" 
+        "images" 
+        "screens"
+
+    PRIV_REQUIRES 
+        nvs_flash 
+        esp_netif 
+        esp_wifi
+        mqtt 
+        cjson 
+        lvgl 
+        protocol_examples_common
+        esp_sparkbot_bsp         
+        bsp_extra                
+)
